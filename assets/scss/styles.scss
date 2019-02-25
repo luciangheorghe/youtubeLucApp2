@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #eee;
+
+}
+.container {
+  height: auto;
+  background-color: #fff;
+}
+.nav{
+  padding: 24px;
+}
+
+#videolist{
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article{
+  padding: 10px;
+  border: 2px solid #fff; 
+  border-radius: 4px;
+
+
+  &:hover{
+   border: 2px solid #ff9999; 
+  }
+}
+
+.thumb{
+  border-radius: 4px;
+}
